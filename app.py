@@ -4,6 +4,6 @@ from PIL import Image
 st.title(" Mi primera página")
 
 st.header("En este espacio comienzo a desarrollar mis aplicaciones para interfaces multimodales.")
-st.write(Facilmente puedo realizar backend y frontend.")
+st.write("Facilmente puedo realizar backend y frontend.")
 image = Image.open('Dragon.jpg')
 st.image(image, caption='Interfaces multimodales')
